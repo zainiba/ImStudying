@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Roboto+Condensed:wght@700&display=swap");
+
+body {
+  background-image: url("https://cdn.glitch.com/a90645ba-33ce-47c9-8b28-cb71de743b3b%2Foffice.jpg?v=1621463847216");
+  background-position: center;
+  background-size: 900px;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  height: 10em;
+  position: relative;
+}
+div.text {
+  margin: 0;
+  background: lightblue;
+  padding: 50px 90px;
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.button {
+  margin: 0;
+  background: lightblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  color: white;
+  font-family: "Cabin", Sanserif;
+  position: absolute;
+  top: 290%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: lightblue;
+  overflow: hidden;
+}
